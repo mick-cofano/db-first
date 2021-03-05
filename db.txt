@@ -1,0 +1,20 @@
+DATABASE
+CARS SHOWROOM
+________________________________________________________________________________
+
+CAMPI               |          TIPO DI DATO             |  ATTRIBUTI   |   PRIMARY KEY  |
+=>
+
+ID                  |   NUM           |   BIGINT        | AUTO-INCR    |        PK      |
+MARCA               |   STRING        |   VARCHAR(75)   | NOTNULL      |
+MODELLO             |   STRING        |   VARCHAR(75)   | NOTNULL      |
+PREZZO              |   NUM           |   DECIMAL(8,2)  | NOTNULL      |
+CILINDRATA          |   NUM           |   TINYINT (5)   | NULL         |
+POTENZA (CV)        |   NUM           |   TINYINT (4)   | NULL         |
+ALIMENTAZIONE       |   STRING        |   VARCHAR (25)  | NULL         |
+COLORE              |   STRING        |   VARCHAR (25)  | NULL         |
+TARGA               |   STRING        |   VARCHAR (8)   | NOTNULL      |
+KM PERCORSI         |   NUM           |   MEDIUMINT     | NULL         |
+IMMATRICOLAZIONE    |   DATE          |   DATE          | NOTNULL      |
+DESCRIZIONE AUTO    |   TEXT          |   TEXT          | NULL         |
+IMMAGINE MACCHINA   |   STRING        |   VARCHAR(255)  | NOTNULL - DEFAULT(img-folder)  |
